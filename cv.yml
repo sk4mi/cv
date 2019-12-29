@@ -1,0 +1,79 @@
+contact:
+  nom: Garel
+  prénom: Léo
+  job: Network DevOps
+  naissance: 09/03/1992
+  email: leo@garel.network
+  téléphone: 0782323487
+  localisation: Paris / Bretagne
+  social:
+    - github: sk4mi
+    - linkedIn: Léo Garel
+à_propos: |
+  Administrateur réseau datacenter au Ministère des Armées à Paris. 
+  Je suis une personne dynamique, curieuse, créative et perseverante 
+  avec un esprit d'équipe très fort.
+  J'aime résourde des problèmes, appliquer mes compétences à des situations
+  nouvelles présentant un chalenge techniques.
+  Passionné de nouvelles technologies, je porte un grand intérêt à l'automatisation,
+  à la supervision/métrologie ainsi qu'au développement de micro services.
+expérience:
+  - Ministère des Armées:
+    job: administrateur réseaux datacenter
+    période: 07/2017 à 07/2020
+    localisation: Paris
+    description:
+      - administration réseaux de datacenters avec astreinte (~1000 équipements réseaux)
+      - administration pare-feu
+      - mise en place d'une solution de supervision (LibreNMS)
+      - mise en place d'une solution de collècte et d'analyse de:
+        - journaux d'évènements (ELK, syslog)
+        - métriques réseaux (ELK, netflow, sflow)
+      - développement de plusieurs web services:
+        - sauvegarde de configuration
+        - mise à jour de firmware
+      - gestion réseaux de clusters kubernetes
+compétences:
+  réseaux:
+    équipements:
+      - cisco nexus
+      - arista
+      - extreme networks
+      - arkoon
+    protocole:
+      - TCP/IP, SNMP, BGP, STP, sFlow/Netflow, netconf/yang, 
+  développement:
+    - python + divers librairies (falcon, requests, netmiko, nornir, celery)
+    - nx-api, nx-os sdk, eOS api
+    - git
+    - ansible
+  système:
+    - Debian
+    - CentOS
+    - bash
+    - docker
+    - kubernets
+    - apache
+    - nginx
+    - syslog
+  supervision:
+    - nagios
+    - LibreNMS
+    - elastic stack (tableau de bord kibana)
+diplômes:
+  - 2014:
+    titre: BTS
+    nom: IRIS (Informatiques et Réseaux pour l'Industrie et les Services)
+    école: Lycée Félix le Dantec Lannion
+    tags: 
+      - administration systèmes Linux et réseaux
+      - développement C, C++, PHP
+  - 2017:
+    titre: Licence professionnelle
+    nom: ASSTRI (Analyste en Sécurité des Systèmes Télécoms, Réseaux et Informatiques)
+    école: CNAM Ploufragan
+    tags:
+      - administration systèmes et réseaux 
+      - investigation numérique
+      - développement Python
+      - cryptographie
